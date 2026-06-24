@@ -1,0 +1,217 @@
+.pentakuhl-hero{
+height:90vh;
+background:url("/pk-banner.jpg") center/cover;
+display:flex;
+align-items:center;
+position:relative;
+}
+
+.pentakuhl-content{
+position:relative;
+color:white;
+max-width:800px;
+}
+
+.pentakuhl-content h1{
+font-size:70px;
+line-height:1.1;
+margin:25px 0;
+}
+
+.pk-about-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:80px;
+align-items:center;
+}
+
+.pk-about img{
+border-radius:25px;
+}
+
+.pk-about-content span{
+color:#f05a28;
+font-weight:600;
+}
+
+.pk-about-content h2{
+font-size:50px;
+margin:20px 0;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+}
+
+.product-card{
+padding:60px 30px;
+background:white;
+border-radius:25px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.product-card:hover{
+transform:translateY(-10px);
+}
+
+.cater{
+background:#f7f8fc;
+}
+
+.cater-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.cater-card{
+padding:50px;
+background:white;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.infra-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.infra-card{
+padding:60px 30px;
+background:#08152f;
+color:white;
+border-radius:25px;
+text-align:center;
+}
+
+.distributor{
+background:#08152f;
+padding:100px 0;
+}
+
+.distributor-box{
+text-align:center;
+color:white;
+}
+
+.distributor-box h2{
+font-size:50px;
+line-height:1.3;
+}
+.product-card,
+.cater-card,
+.infra-card{
+transition:.4s;
+}
+
+.product-card:hover,
+.cater-card:hover,
+.infra-card:hover{
+transform:translateY(-10px);
+}
+@media(max-width:768px){
+
+.hero{
+height:90vh;
+}
+
+.hero h1,
+.industries-hero-content h1,
+.pentakuhl-content h1{
+font-size:42px;
+}
+
+.section-title h2{
+font-size:36px;
+}
+
+.about-content h2,
+.pk-about-content h2,
+.network-content h2{
+font-size:38px;
+}
+
+.services-grid,
+.why-grid,
+.awards-grid,
+industry-grid,
+product-grid,
+infra-grid,
+cater-grid,
+stats-grid,
+testimonial-grid{
+grid-template-columns:1fr;
+}
+
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.cta-box{
+flex-direction:column;
+gap:30px;
+text-align:center;
+padding:50px;
+}
+
+.cta-box h2{
+font-size:34px;
+}
+
+}
+@media(max-width:768px){
+
+.hero{
+height:90vh;
+}
+
+.hero h1,
+.industries-hero-content h1,
+.pentakuhl-content h1{
+font-size:42px;
+}
+
+.section-title h2{
+font-size:36px;
+}
+
+.about-content h2,
+.pk-about-content h2,
+.network-content h2{
+font-size:38px;
+}
+
+.services-grid,
+.why-grid,
+.awards-grid,
+industry-grid,
+product-grid,
+infra-grid,
+cater-grid,
+stats-grid,
+testimonial-grid{
+grid-template-columns:1fr;
+}
+
+.footer-grid{
+grid-template-columns:1fr;
+}
+
+.cta-box{
+flex-direction:column;
+gap:30px;
+text-align:center;
+padding:50px;
+}
+
+.cta-box h2{
+font-size:34px;
+}
+
+}
